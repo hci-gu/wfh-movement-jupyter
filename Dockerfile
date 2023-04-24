@@ -5,6 +5,7 @@ RUN conda install --quiet --yes \
     'plotly' \
     'ipywidgets' \
     'scipy' \
-    'ruptures' \
-    'pandas' && \
+    'pandas' \
+    'cufflinks-py' \
+    'seaborn' && \
     conda clean --all -f -y 
